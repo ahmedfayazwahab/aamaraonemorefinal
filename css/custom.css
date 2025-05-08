@@ -2513,7 +2513,7 @@ header.main-header .header-sticky.active{
     right: 0;
     bottom: 0;
     background: var(--dark-divider-color);
-    opacity: 80%;
+    opacity: 60%;
 }
 
 .page-header-box{
@@ -4703,13 +4703,13 @@ header.main-header .header-sticky.active{
 		left: -100px;
 		width: 200px;
 		height: 200px;
-		opacity: 40%;
+		opacity: 70%;
 	}
 	
 	.our-blog::after{
 		width: 140px;
         height: 175px;
-		opacity: 40%;
+		opacity: 70%;
 	}
 
 	.post-item-content,
@@ -5219,7 +5219,7 @@ header.main-header .header-sticky.active{
 @media only screen and (max-width: 767px){
 
 	header.main-header{
-		top: 60px;
+		top: 0px;
 	}
 
 	body{

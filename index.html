@@ -5,15 +5,33 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
 	<meta name="author" content="Aamara">
 
-	<!-- Page Title -->
-    <title>Aamara</title>
+    <!-- Page Title -->
+    <title>Fine Dining Indian Restaurant in Toronto - Aamara</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Discover Aamara, Toronto's finest destination for gourmet Indian cuisine. Experience royal flavors, secret recipes, and unforgettable dining.">
+    <meta name="keywords" content="Indian Food Near Me, Indian Restaurant Near Me, Fine dining with Indian cocktails in Toronto, Top Indian dishes and desserts near me Toronto, Contemporary Indian Dining Toronto, Indian restaurant with unique cocktails Toronto, Indian cuisine with specialty desserts in Toronto, Indian restaurant menu">
 
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- Open Graph Tags for Social Media Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Best Fine Dining Indian Restaurant in Toronto - Aamara">
+    <meta property="og:description" content="Discover Aamara, Toronto's finest destination for gourmet Indian cuisine. Experience royal flavors, secret recipes, and unforgettable dining.">
+    <meta property="og:url" content="https://aamara.ca">
+    <meta property="og:site_name" content="Best Fine Dining Indian Restaurant in Toronto - Aamara">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:description" content="Best Fine Dining Indian Restaurant in Toronto - Aamara">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://aamara.ca/">
+
+    <!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,24 +81,24 @@
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>                              
-                                <li class="nav-item"><a class="nav-link" href="menu.html">menu</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
+                            <ul class="navbar-nav mr-auto" id="menu" style="width: 200%;margin-left: -100px;">
+                                <li class="nav-item"><a class="nav-link" href="index.html">The Experience</a>                              
+                                <li class="nav-item"><a class="nav-link" href="menu.html">Our Flavors</a></li>
+                                <li id="blog" class="nav-item"><a href="#blogs" class="nav-link">Stories</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Inside Aamara</a>
                                     <ul>                                        
                                         <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
                                         <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">More</a>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Discover More</a>
                                     <ul>                                        
                                         <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
                                         <li class="nav-item"><a class="nav-link" href="blog-single.html">Gift Card</a></li>
                                         <li class="nav-item"><a class="nav-link" href="service-single.html">Private Dining & Events</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>      
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Reach Out</a></li>      
                             </ul>
                         </div>
                         <!-- Header Contact Box Start -->
@@ -1525,7 +1543,7 @@
     <!-- Our Testimonial Section End -->
 
     <!-- Our Blog Section Start -->
-    <div class="our-blog">
+    <div class="our-blog" id="blogs">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
@@ -1639,7 +1657,7 @@
                 <div class="col-lg-6">
                     <!-- Reserve Table Form Start -->
                     <div class="reserve-table-form">
-                        <form id="appointmentForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp">
+                        <form id="appointmentForm" action="https://formspree.io/f/xblldkwv" method="POST" class="wow fadeInUp">
                             <div class="row">
                                 <div class="form-group col-md-12 mb-4">
                                     <label class="form-label">your name</label>
@@ -1649,13 +1667,13 @@
 
                                 <div class="form-group col-md-6 mb-4">
                                     <label class="form-label">email address</label>
-                                    <input type="email" name ="email" class="form-control" id="email" placeholder="e.g. John@example.com" required>
+                                    <input type="email" name ="email" class="form-control" id="email" placeholder="e.g. John@gmail.com" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 
                                 <div class="form-group col-md-6 mb-4">
                                     <label class="form-label">phone number</label>
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="e.g. + 123 456 8792" required>
+                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="e.g. 416-651-0010" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -1691,10 +1709,14 @@
                                     </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
-
+                                <div class="form-group col-md-12 mb-4">
+                                    <label class="form-label">Message</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Request for Private Dining Event or Any Info" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
                                 <div class="col-lg-12">
                                     <div class="reserve-table-btn">
-                                        <button type="submit" class="btn-default">reserve now</button>
+                                        <button type="submit" class="btn-default">Enquire Now</button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
@@ -1778,6 +1800,19 @@
         </div>
     </footer>
     <!-- Main Footer Section End -->
+
+    <script>
+        // Get the button element
+        const button = document.getElementById('blog');
+    
+        // Add event listener to the button to scroll to 500px
+        button.addEventListener('click', () => {
+          window.scrollTo({
+            top: 7100, // You can change this value to whatever number of pixels you want
+            behavior: 'smooth' // This makes the scrolling smooth
+          });
+        });
+    </script>
 
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>

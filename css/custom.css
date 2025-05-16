@@ -3471,10 +3471,12 @@ header.main-header .header-sticky.active{
 }
 
 .post-image img{
-	width: 100%;
-	aspect-ratio: 1 / 0.50;
+	width: 35%;
 	object-fit: cover;
 	border-radius: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .post-content{
@@ -3929,7 +3931,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-gallery{
-	padding: 100px 0 70px;
+	padding: 150px 0 70px;
 }
 
 .page-gallery-box .photo-gallery{
@@ -3958,7 +3960,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-video-gallery{
-	padding: 100px 0 70px;
+	padding: 150px 0 70px;
 }
 
 .video-gallery-image{

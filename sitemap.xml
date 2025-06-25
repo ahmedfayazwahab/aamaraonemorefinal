@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://aamara.ca/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/blog.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/blog-single.html</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/menu.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/faqs.html</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/image-gallery.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/video-gallery.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/service-single.html</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/extra-files.html</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://aamara.ca/404.html</loc>
+    <priority>0.10</priority>
+  </url>
+
+</urlset>

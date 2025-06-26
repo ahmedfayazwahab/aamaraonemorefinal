@@ -45,5 +45,9 @@
     <loc>https://aamara.ca/404.html</loc>
     <priority>0.10</priority>
   </url>
+  <url>
+    <loc>https://aamara.ca/privacypolicy.html</loc>
+    <priority>0.10</priority>
+  </url>
 
 </urlset>

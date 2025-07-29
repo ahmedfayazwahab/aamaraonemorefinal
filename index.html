@@ -1164,6 +1164,43 @@ Reply HELP for help or STOP to opt-out.
     </footer>
     <!-- Main Footer Section End -->
 
+    <!-- Translucent Modal Start -->
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-content">
+        <p style="color: black; font-size: 20px;">Just here!</p>
+        <img style="max-width: 85%; margin: auto;" src="images/popup.jpg">
+        <p style="padding-top: 15px; font-size: 12px;"><i>Introducing Toronto’s Most Flavourful Brunch – A Symphony of Indian Comfort and Global Elegance. Book Now!</i></p>
+        <a href="https://reserve.aamara.ca" class="btn-default">Reserve Now</a>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <!-- Translucent Modal End -->
+        
+
+    
+
+    <script>
+        function closeModal() {
+            document.getElementById('customModal').classList.remove('show');
+        }
+        
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+            document.getElementById('customModal').classList.add('show');
+            }, 3000);
+        });
+        
+        // Optional: Close on outside click
+        document.addEventListener('click', function (event) {
+            const modal = document.getElementById('customModal');
+            if (event.target === modal) {
+            closeModal();
+            }
+        });
+        </script>
+          
+
+    
     <script>
         // Get the button element
         const button = document.getElementById('blog');

@@ -539,11 +539,13 @@ body{
 /************************************/
 
 header.main-header{
-	position: absolute;
-	top: 0;
+	position: fixed;
+	top: 40px;
 	width: 100%;
 	border-bottom: 1px solid var(--divider-color);
 	z-index: 100;
+	background: black;
+
 }
 
 header.main-header .header-sticky{
@@ -2326,7 +2328,7 @@ header.main-header .header-sticky.active{
 
 .our-blog{
 	position: relative;
-	padding: 100px 0 70px;
+	padding: 250px 0 70px;
 }
 
 .our-blog::before{
@@ -3136,7 +3138,7 @@ header.main-header .header-sticky.active{
 
 .page-service-single{
 	position: relative;
-	padding: 100px 0;
+	padding: 250px 0;
 }
 
 .page-service-single::before{
@@ -4039,7 +4041,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-gallery{
-	padding: 150px 0 70px;
+	padding: 200px 0 70px;
 }
 
 .page-gallery-box .photo-gallery{
@@ -4350,7 +4352,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .error-page{
-	padding: 100px 0;
+	padding: 250px 0;
 }
 
 .error-page-image{
@@ -4396,7 +4398,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.navbar{
-		padding: 20px 0;
+		padding: 5px 0;
 	}
 
 	.main-menu ul li.highlighted-menu{
@@ -4455,7 +4457,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero{
-		padding: 200px 0 50px;
+		padding: 250px 0 50px;
 	}
 
 	.hero.hero-slider-layout .hero-slide{
@@ -4876,7 +4878,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.page-header{
-		padding: 170px 0 80px;
+		padding: 250px 0 80px;
 	}
 
 	.page-header-box h1{
@@ -4984,7 +4986,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.page-service-single{
-		padding: 50px 0;
+		padding: 200px 0;
 	}
 
 	.page-service-single::before{
@@ -5253,7 +5255,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.page-gallery{
-		padding: 50px 0 20px;
+		padding: 200px 0 20px;
 	}
 
 	.page-gallery-box .photo-gallery figure,
@@ -5316,7 +5318,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.error-page{
-		padding: 50px 0;
+		padding: 200px 0;
 	}
 	
 	.error-page-image{
@@ -5331,7 +5333,7 @@ header.main-header .header-sticky.active{
 @media only screen and (max-width: 767px){
 
 	header.main-header{
-		top: 0px;
+		top: 78px;
 	}
 
 	body{
